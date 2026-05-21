@@ -2,9 +2,9 @@ import { useState } from "react";
 import Myphoto from "../../assets/img/Myphoto.png";
 import StatePhoto from "../../assets/img/state.png";
 import style from "./Header.module.css";
-const Header = () => {
+const Header: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const handleOpenMyInfo = ()=>{
+  const handleOpenMyInfo: React.MouseEventHandler<HTMLImageElement> = ()=>{
     setIsHovered(!isHovered);
   }
 

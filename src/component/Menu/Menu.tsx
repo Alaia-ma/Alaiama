@@ -8,7 +8,7 @@ const menuList = [
   '产品设计',
   '已落地项目'
 ]
-const Menu = () => {
+const Menu: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(1);
   const handleMenuMove = (index : number)=>{
     setActiveIndex(index);
