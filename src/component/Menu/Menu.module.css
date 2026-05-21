@@ -1,0 +1,56 @@
+.section{
+    width: 20vw;
+    height: 100vh;
+    border-right: 1px solid #BEBABA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    width: 100%;
+    font-family: 'Extra Bold';
+    font-size: 2vw;
+    color: #000;
+    padding: 2vw 1vw 0 1vw;
+    box-sizing: border-box;
+    margin: 3vw 0 0 0 !important;
+    padding: 0 0 0 2vw;
+}
+.subtitle{
+    width: 100%;
+    height: 3vw;
+    font-size: 1.7vw;
+    margin: -1vw 0 0 0 !important;
+    padding: 0 1vw 0 19vw;
+}
+.ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vw 4vw 0 0 !important;
+}
+.li{
+    width: 70%;
+    height: 8%;
+    font-size: 1.3vw;
+    font-family: "SemiBold";
+    margin-top: 2vw;
+    border-radius: 999px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer !important;
+    font-weight:bold;
+}
+.mouseClick{
+    background-color: rgba(243,141,82,0.45);
+    box-shadow:
+    inset 0 4px 8px rgba(0,0,0,0.2),
+    inset 0 -2px 4px rgba(255,255,255,0.2);
+    transition: 0.6s;
+}
