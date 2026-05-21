@@ -1,0 +1,17 @@
+
+.main_body_title{
+    margin: 1vw 0 0 6vw !important;
+    font-family: "Semibold";
+}
+.swiper {
+  padding: 2vw 0 0 2vw;
+  width: 100%;
+  height: 100%;
+}
+.swiper :global(.swiper-slide){
+    width:380px !important;
+}
+.swiper_img{
+    width: 321px;
+    height: 474px;
+}
